@@ -1,0 +1,154 @@
+:root{
+    --themecolor: #9b6a00 ;
+}
+
+body{
+height: 100vh;
+font-weight: 100vw;
+background-image: linear-gradient(45deg, var(--themecolor) 11%, #292e2b 11% 22%,var(--themecolor) 22% 33%, #f1f1f1 33%  90% ,
+    #292e2b 90% 95%,
+var(--themecolor) 95% 100%);
+overflow: hidden;
+}
+
+h3{
+    display:inline;
+}
+.company{
+    display: flex;
+    position: absolute;
+}
+.circle{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    background-image: linear-gradient(47deg,var(--themecolor) 50%, #f1f1f1 50% 100%);
+    padding:0.3rem ;
+    display: flex;
+    float: left;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    background-color: #292e2b;
+    object-fit: cover;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #292e2b; 
+    object-fit: cover;
+}
+img{
+    border-radius: 50%;    
+}
+.profiles{
+    height: 4rem;
+    width: 4rem;
+}
+
+.square{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 24%;
+    background-color: red;
+    position: relative;
+    top: 20rem;
+    right: 9rem;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 24%;
+    background-color:white;
+}
+.paragraph{
+    display: flex;
+    align-items: center;
+}
+.description{
+align-self: center;
+position: relative;
+top: 5rem;
+left: 35rem;
+width: 30rem;
+}
+.title{
+    text-align: center;
+}
+.items{
+    justify-content: left;
+    margin-top:  1rem;
+    margin-bottom: 1rem;
+}
+
+svg{
+    margin-right: 0.5rem;
+    position: relative;
+    top: 0.2rem; 
+}
+
+button{
+   border: none;
+    border-radius: 4px 4px 4px 4px;
+    background-color: var(--themecolor) ;
+    height: 1.5rem;
+    width: 6rem;
+    color: antiquewhite
+}
+
+.btn{
+    position: relative;
+    top: 3rem;
+}
+
+.items{
+  align-self: center;
+}
+
+hr{
+    width: 90%;
+}
+
+.mymodalcontent{
+    background-color: #f1f1f1;
+    width: 80%;
+    height: 70%;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 1rem;
+    top:8rem;
+    left: 6rem;
+    position: relative;
+}
+
+.modal{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    top: -120%;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.705);
+    transition: all .8s ease;
+}
+
+.coloroption{
+    display: flex;
+    flex-direction: column;
+}
+
+.savebtn{
+    width: 100%;
+}
+
+input{
+    border-radius: 0.3rem;
+    height: 1.7rem;
+    border-color: var(--themecolor) ;
+    margin-bottom: 0.5;
+}
